@@ -1,0 +1,8 @@
+<!ELEMENT voters (voter+)>
+<!ELEMENT voter (vid,vname,email,status,nic,address)>
+<!ELEMENT vid (#PCDATA)>
+<!ELEMENT vname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT nic (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
